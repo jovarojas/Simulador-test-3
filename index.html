@@ -20,14 +20,14 @@
             let tiempoRestante = parseInt(localStorage.getItem("tiempoRestante")) || 3600; // Cargar tiempo o iniciar en 1 hora;
             let timer;
             let respuestasCorrectas = {
-                q1: "b", q2: "a", q3: "c", q4: "b", q5: "b", q6: "b", q7: "d", q8: "a", q9: "d", q10: "c", q11: "b", q12: "c",
-                q13: "c", q14: "b", q15: "d", q16: "a", q17: "c", q18: "a", q19: "b", q20: "c", q21: "b", q22: "c", q23: "a",
-                q24: "a", q25: "c", q26: "d", q27: "d", q28: "c", q29: "b", q30: "a", q31: "a", q32: "b", q33: "b", q34: "a",
-                q35: "a", q36: "b", q37: "c", q38: "a", q39: "a", q40: "b", q41: "c", q42: "c", q43: "b", q44: "d", q45: "b",
-                q46: "a", q47: "a", q48: "a", q49: "a", q50: "b", q51: "c", q52: "a", q53: "a", q54: "b", q55: "b", q56: "a",
-                q57: "c", q58: "c", q59: "a", q60: "a", q61: "d", q62: "c", q63: "a", q64: "c", q65: "b", q66: "c", q67: "b",
-                q68: "b", q69: "b", q70: "d", q71: "b", q72: "d", q73: "b", q74: "a", q75: "a", q76: "c", q77: "c", q78: "d",
-                q79: "c", q80: "a"
+                q1: "b", q2: "d", q3: "a", q4: "a", q5: "d", q6: "b", q7: "d", q8: "a", q9: "b", q10: "d", q11: "b", q12: "a",
+                q13: "d", q14: "d", q15: "b", q16: "b", q17: "a", q18: "b", q19: "a", q20: "c", q21: "d", q22: "d", q23: "d",
+                q24: "b", q25: "c", q26: "c", q27: "a", q28: "a", q29: "b", q30: "b", q31: "c", q32: "a", q33: "d", q34: "c",
+                q35: "d", q36: "b", q37: "b", q38: "c", q39: "b", q40: "c", q41: "a", q42: "c", q43: "b", q44: "c", q45: "d",
+                q46: "d", q47: "a", q48: "b", q49: "a", q50: "b", q51: "b", q52: "b", q53: "a", q54: "d", q55: "b", q56: "c",
+                q57: "a", q58: "d", q59: "a", q60: "b", q61: "d", q62: "b", q63: "b", q64: "a", q65: "a", q66: "b", q67: "a",
+                q68: "d", q69: "c", q70: "a", q71: "b", q72: "a", q73: "b", q74: "c", q75: "b", q76: "b", q77: "c", q78: "c",
+                q79: "d", q80: "a"
             };
 
             let respuestasUsuario = JSON.parse(localStorage.getItem("respuestasUsuario")) || {};
